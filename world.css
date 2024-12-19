@@ -1,1 +1,46 @@
-/* Add your own styles */
+header {
+    position: relative; 
+    width: 100%; 
+    height: 300px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+}
+
+#header-img {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    opacity: 0.5; 
+}
+
+header h1 {
+    position: relative;
+    color: black; 
+    font-size: 6em; 
+    z-index: 1; 
+    margin: 0; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#controls {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+}
